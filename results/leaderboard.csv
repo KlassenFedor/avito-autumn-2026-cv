@@ -1,0 +1,7 @@
+name,file,score,brier,used_in_blend_search,comment
+mobilenet_v1,,0.85,,False,ранняя версия дообученной MobileNet (точный скор не сохранён)
+mobilenet,mobilenet.csv,0.89215717,0.10784283,True,дообученная MobileNetV3-Small без TTA
+paddle_x0_25,paddle_x0_25.csv,0.89145139,0.10854861,True,PP-LCNet_x0_25_textline_ori без TTA
+mobilenet_tta,mobilenet_tta.csv,0.90814276,0.09185724,True,MobileNet + TTA rot180 (logit)
+paddle_x0_25_tta,paddle_x0_25_tta.csv,0.93634368,0.06365632,True,PP-LCNet x0.25 + TTA rot180 (logit)
+paddle_x1_0_tta,paddle_x1_0_tta.csv,0.95953930,0.04046070,True,PP-LCNet x1.0 + TTA rot180 (logit)
