@@ -1,6 +1,6 @@
 # Решение задачи "Классификация поворота текста" в рамках Data Science Bootcamp от Авито
 
-**Решение:** смесь двух маленьких CNN (~3.2M параметров, ~13 МБ весов), каждая с Test-Time Augmentation на 180° (далее - TTA):
+**Решение:** solution.ipynb - смесь двух маленьких CNN (~3.2M параметров, ~13 МБ весов), каждая с Test-Time Augmentation на 180° (далее - TTA):
 `p_180 = 0.2 · MobileNetV3-Small + 0.8 · PP-LCNet_x1_0_textline_ori`.
 
 | сабмит | 1 − Brier|
@@ -27,7 +27,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 ## Структура
 
 ```
-solution.ipynb                   инференс: test/images/ + weights/ -> submission.csv (самостоятельный)
+solution.ipynb                   основной ноутбук
 submission.csv                   итоговые предсказания
 weights/                         MobileNet (.onnx для инференса, .pt из обучения, логи запуска), PP-LCNet x1.0
 training/                        дообучение MobileNetV3-Small
