@@ -1,0 +1,31 @@
+{
+  "best_epoch": 18,
+  "val_ocr_brier": 0.026295600261668082,
+  "test": {
+    "all": {
+      "n": 75000,
+      "positive_rate": 0.5,
+      "brier": 0.019672887242214165,
+      "score": 0.9803271127577858,
+      "accuracy": 0.97352,
+      "log_loss": 0.07103207969609189
+    },
+    "source=ocr": {
+      "n": 52500,
+      "positive_rate": 0.5,
+      "brier": 0.027073925822017165,
+      "score": 0.9729260741779828,
+      "accuracy": 0.963447619047619,
+      "log_loss": 0.09742565864525302
+    },
+    "source=synthetic": {
+      "n": 22500,
+      "positive_rate": 0.5,
+      "brier": 0.002403797222673824,
+      "score": 0.9975962027773262,
+      "accuracy": 0.9970222222222223,
+      "log_loss": 0.00944706214804929
+    }
+  },
+  "checkpoint": "runs/mobilenet_combined_20260928_070411_181099/best_raw.pt"
+}

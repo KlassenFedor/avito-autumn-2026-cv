@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "height": 48,
+  "width": 320,
+  "batch_size": 32,
+  "workers": 4,
+  "epochs": 50,
+  "patience": 10,
+  "rotate_prob": 0.5,
+  "backbone_lr": 0.0001,
+  "head_lr": 0.001,
+  "weight_decay": 0.0001,
+  "initialization": "imagenet",
+  "imagenet_weights": null,
+  "device": "cuda",
+  "torch_version": "2.14.0+cu126",
+  "labels_sha256": "62e97829ba094b35c4cb2bb33b845fb5f4a4bcae36370d39ad298067e1444d32",
+  "selection": "source=ocr:val_brier"
+}

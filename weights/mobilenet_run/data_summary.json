@@ -1,0 +1,74 @@
+[
+  {
+    "split": "test",
+    "source": "ocr",
+    "label": 0,
+    "count": 26250
+  },
+  {
+    "split": "test",
+    "source": "ocr",
+    "label": 1,
+    "count": 26250
+  },
+  {
+    "split": "test",
+    "source": "synthetic",
+    "label": 0,
+    "count": 11250
+  },
+  {
+    "split": "test",
+    "source": "synthetic",
+    "label": 1,
+    "count": 11250
+  },
+  {
+    "split": "train",
+    "source": "ocr",
+    "label": 0,
+    "count": 122500
+  },
+  {
+    "split": "train",
+    "source": "ocr",
+    "label": 1,
+    "count": 122500
+  },
+  {
+    "split": "train",
+    "source": "synthetic",
+    "label": 0,
+    "count": 52500
+  },
+  {
+    "split": "train",
+    "source": "synthetic",
+    "label": 1,
+    "count": 52500
+  },
+  {
+    "split": "val",
+    "source": "ocr",
+    "label": 0,
+    "count": 26250
+  },
+  {
+    "split": "val",
+    "source": "ocr",
+    "label": 1,
+    "count": 26250
+  },
+  {
+    "split": "val",
+    "source": "synthetic",
+    "label": 0,
+    "count": 11250
+  },
+  {
+    "split": "val",
+    "source": "synthetic",
+    "label": 1,
+    "count": 11250
+  }
+]
