@@ -1,0 +1,9 @@
+data/
+test/
+sample_submission.csv
+*Zone.Identifier
+runs/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/

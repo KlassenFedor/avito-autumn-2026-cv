@@ -1,0 +1,10 @@
+paddleocr==3.7.0
+onnxruntime==1.30.0
+numpy==2.3.5
+pandas==3.0.6
+pillow==12.3.0
+opencv-contrib-python==4.10.0.84
+tqdm==4.70.1
+scipy==1.18.1
+ipykernel==7.3.0
+nbconvert==7.17.1
